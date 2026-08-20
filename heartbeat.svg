@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 110" width="800" height="110">
+  <defs>
+    <clipPath id="ekgClip">
+      <rect x="0" y="28" width="800" height="70"/>
+    </clipPath>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow2" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Main background -->
+  <rect width="800" height="110" fill="#0d1117" rx="8"/>
+
+  <!-- Title bar -->
+  <rect width="800" height="26" fill="#161b22" rx="8"/>
+  <rect width="800" height="13" y="13" fill="#161b22"/>
+
+  <!-- Window border -->
+  <rect width="799" height="109" x=".5" y=".5" fill="none" stroke="#21262d" stroke-width="1" rx="8"/>
+
+  <!-- Traffic lights -->
+  <circle cx="16" cy="13" r="4" fill="#ff5f57"/>
+  <circle cx="30" cy="13" r="4" fill="#ffbd2e"/>
+  <circle cx="44" cy="13" r="4" fill="#28c941"/>
+
+  <!-- Title -->
+  <text x="400" y="13" text-anchor="middle" fill="#8b949e"
+        font-family="'Courier New',monospace" font-size="10" dominant-baseline="middle">
+    CHAKRA MONITOR  ─  neelashish.sys
+  </text>
+
+  <!-- Live indicator -->
+  <circle cx="776" cy="13" r="3.5" fill="#f97316">
+    <animate attributeName="opacity" values="1;0.15;1" dur="1.4s" repeatCount="indefinite"/>
+  </circle>
+  <text x="762" y="13" text-anchor="end" fill="#f97316"
+        font-family="'Courier New',monospace" font-size="9" dominant-baseline="middle">LIVE</text>
+
+  <!-- Subtle grid -->
+  <g stroke="#161b22" stroke-width="1">
+    <line x1="0" y1="50" x2="800" y2="50"/>
+    <line x1="0" y1="65" x2="800" y2="65"/>
+    <line x1="0" y1="80" x2="800" y2="80"/>
+    <line x1="200" y1="28" x2="200" y2="98"/>
+    <line x1="400" y1="28" x2="400" y2="98"/>
+    <line x1="600" y1="28" x2="600" y2="98"/>
+  </g>
+
+  <!-- EKG Wave (clipped) — 1600px path, animated -800px over 3.5s = seamless loop -->
+  <g clip-path="url(#ekgClip)">
+    <path fill="none" stroke="#39d353" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+          filter="url(#glow)"
+          d="
+      M   0,65 L  70,65 L  75,57 L  80,53 L  85,65
+      L 100,65 L 103,72 L 105,18 L 108,80 L 112,65
+      L 122,65 L 128,53 L 135,65
+      L 200,65
+      L 270,65 L 275,57 L 280,53 L 285,65
+      L 300,65 L 303,72 L 305,18 L 308,80 L 312,65
+      L 322,65 L 328,53 L 335,65
+      L 400,65
+      L 470,65 L 475,57 L 480,53 L 485,65
+      L 500,65 L 503,72 L 505,18 L 508,80 L 512,65
+      L 522,65 L 528,53 L 535,65
+      L 600,65
+      L 670,65 L 675,57 L 680,53 L 685,65
+      L 700,65 L 703,72 L 705,18 L 708,80 L 712,65
+      L 722,65 L 728,53 L 735,65
+      L 800,65
+      L 870,65 L 875,57 L 880,53 L 885,65
+      L 900,65 L 903,72 L 905,18 L 908,80 L 912,65
+      L 922,65 L 928,53 L 935,65
+      L 1000,65
+      L 1070,65 L 1075,57 L 1080,53 L 1085,65
+      L 1100,65 L 1103,72 L 1105,18 L 1108,80 L 1112,65
+      L 1122,65 L 1128,53 L 1135,65
+      L 1200,65
+      L 1270,65 L 1275,57 L 1280,53 L 1285,65
+      L 1300,65 L 1303,72 L 1305,18 L 1308,80 L 1312,65
+      L 1322,65 L 1328,53 L 1335,65
+      L 1400,65
+      L 1470,65 L 1475,57 L 1480,53 L 1485,65
+      L 1500,65 L 1503,72 L 1505,18 L 1508,80 L 1512,65
+      L 1522,65 L 1528,53 L 1535,65
+      L 1600,65
+    ">
+      <animateTransform attributeName="transform" type="translate"
+        from="0,0" to="-800,0" dur="3.5s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- Status bar -->
+  <rect x="0" y="97" width="800" height="13" fill="#161b22"/>
+  <rect x="0" y="97" width="800" height="13" fill="#0d1117" opacity="0.4"/>
+
+  <text y="106" font-family="'Courier New',monospace" font-size="9" dominant-baseline="auto">
+    <tspan x="10"  fill="#8b949e">BPM: 72</tspan>
+    <tspan x="68"  fill="#30363d"> │ </tspan>
+    <tspan x="80"  fill="#39d353">STATUS: OPERATIONAL</tspan>
+    <tspan x="238" fill="#30363d"> │ </tspan>
+    <tspan x="250" fill="#f97316">LEVEL: BEGINNER → HOKAGE</tspan>
+    <tspan x="490" fill="#30363d"> │ </tspan>
+    <tspan x="502" fill="#58a6ff">MISSION: BECOME HOKAGE</tspan>
+  </text>
+</svg>
