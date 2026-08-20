@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 742" width="520" height="742">
-<rect width="520" height="742" fill="#0d1117" rx="8"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 674" width="520" height="674">
+<rect width="520" height="674" fill="#0d1117" rx="8"/>
 <rect width="520" height="26" fill="#161b22" rx="8"/>
 <rect width="520" height="13" y="13" fill="#161b22"/>
-<rect width="519.5" height="741.5" x=".25" y=".25" fill="none" stroke="#21262d" stroke-width=".5" rx="8"/>
+<rect width="519.5" height="673.5" x=".25" y=".25" fill="none" stroke="#21262d" stroke-width=".5" rx="8"/>
 <circle cx="16" cy="13" r="4" fill="#ff5f57"/>
 <circle cx="30" cy="13" r="4" fill="#ffbd2e"/>
 <circle cx="44" cy="13" r="4" fill="#28c941"/>
@@ -23,28 +23,24 @@
 <text y="276.5" font-family="'Courier New',Consolas,monospace" font-size="11.5" xml:space="preserve"><tspan x="18.0" fill="#d2a8ff">  Learn</tspan><tspan x="66.4" fill="#8b949e">.Now    </tspan><tspan x="121.7" fill="#8b949e"> ............ </tspan><tspan x="218.4" fill="#f0f6fc">Machine Learning</tspan></text>
 <text y="293.5" font-family="'Courier New',Consolas,monospace" font-size="11.5" xml:space="preserve"><tspan x="18.0" fill="#d2a8ff">  Learn</tspan><tspan x="66.4" fill="#8b949e">.Next   </tspan><tspan x="121.7" fill="#8b949e"> ............ </tspan><tspan x="218.4" fill="#f0f6fc">Deep Learning</tspan></text>
 <text y="310.5" font-family="'Courier New',Consolas,monospace" font-size="11.5" xml:space="preserve"><tspan x="18.0" fill="#f97316">  Prog </tspan><tspan x="66.4" fill="#8b949e">.ML     </tspan><tspan x="121.7" fill="#f0f6fc">  [</tspan><tspan x="142.4" fill="#f97316">████</tspan><tspan x="170.1" fill="#21262d">░░░░</tspan><tspan x="197.7" fill="#f0f6fc">] In Progress</tspan></text>
-<text y="327.5" font-family="'Courier New',Consolas,monospace" font-size="11.5" xml:space="preserve"><tspan x="18.0" fill="#f97316">  Prog </tspan><tspan x="66.4" fill="#8b949e">.LinAlg </tspan><tspan x="121.7" fill="#f0f6fc">  [</tspan><tspan x="142.4" fill="#79c0ff">██</tspan><tspan x="156.2" fill="#21262d">░░░░░░</tspan><tspan x="197.7" fill="#f0f6fc">] Queued</tspan></text>
+<text y="327.5" font-family="'Courier New',Consolas,monospace" font-size="11.5" xml:space="preserve"><tspan x="18.0" fill="#f97316">  Prog </tspan><tspan x="66.4" fill="#8b949e">.Math   </tspan><tspan x="121.7" fill="#f0f6fc">  [</tspan><tspan x="142.4" fill="#79c0ff">██</tspan><tspan x="156.2" fill="#21262d">░░░░░░</tspan><tspan x="197.7" fill="#f0f6fc">] In Progress</tspan></text>
 <text y="344.5" font-family="'Courier New',Consolas,monospace" font-size="11.5" xml:space="preserve"><tspan x="18.0" fill="#f0f6fc"> </tspan></text>
-<text y="361.5" font-family="'Courier New',Consolas,monospace" font-size="11.5" xml:space="preserve"><tspan x="18.0" fill="#56d364">  Hobby</tspan><tspan x="66.4" fill="#8b949e">.Anime  </tspan><tspan x="121.7" fill="#8b949e"> ............ </tspan><tspan x="218.4" fill="#f0f6fc">Naruto  ·  Marvel</tspan></text>
-<text y="378.5" font-family="'Courier New',Consolas,monospace" font-size="11.5" xml:space="preserve"><tspan x="18.0" fill="#56d364">  Hobby</tspan><tspan x="66.4" fill="#8b949e">.Games  </tspan><tspan x="121.7" fill="#8b949e"> ............ </tspan><tspan x="218.4" fill="#f0f6fc">Strategy / RPG</tspan></text>
-<text y="395.5" font-family="'Courier New',Consolas,monospace" font-size="11.5" xml:space="preserve"><tspan x="18.0" fill="#56d364">  Hobby</tspan><tspan x="66.4" fill="#8b949e">.Read   </tspan><tspan x="121.7" fill="#8b949e"> ............ </tspan><tspan x="218.4" fill="#f0f6fc">Tech, Sci-Fi</tspan></text>
-<text y="412.5" font-family="'Courier New',Consolas,monospace" font-size="11.5" xml:space="preserve"><tspan x="18.0" fill="#f0f6fc"> </tspan></text>
-<text y="429.5" font-family="'Courier New',Consolas,monospace" font-size="11.5" xml:space="preserve"><tspan x="18.0" fill="#21262d">──────────────────────────────────────────────────────────</tspan></text>
+<text y="361.5" font-family="'Courier New',Consolas,monospace" font-size="11.5" xml:space="preserve"><tspan x="18.0" fill="#21262d">──────────────────────────────────────────────────────────</tspan></text>
+<text y="378.5" font-family="'Courier New',Consolas,monospace" font-size="11.5" xml:space="preserve"><tspan x="18.0" fill="#f0f6fc"> </tspan></text>
+<text y="395.5" font-family="'Courier New',Consolas,monospace" font-size="11.5" xml:space="preserve"><tspan x="18.0" fill="#e3b341">  LinkedIn </tspan><tspan x="94.0" fill="#8b949e"> ... </tspan><tspan x="128.6" fill="#79c0ff">linkedin.com/in/neelashish-b5a50b380</tspan></text>
+<text y="412.5" font-family="'Courier New',Consolas,monospace" font-size="11.5" xml:space="preserve"><tspan x="18.0" fill="#e3b341">  X/Twitter</tspan><tspan x="94.0" fill="#8b949e"> ... </tspan><tspan x="128.6" fill="#79c0ff">@Neelashish_08</tspan></text>
+<text y="429.5" font-family="'Courier New',Consolas,monospace" font-size="11.5" xml:space="preserve"><tspan x="18.0" fill="#e3b341">  Email    </tspan><tspan x="94.0" fill="#8b949e"> ... </tspan><tspan x="128.6" fill="#79c0ff">neelashish0@gmail.com</tspan></text>
 <text y="446.5" font-family="'Courier New',Consolas,monospace" font-size="11.5" xml:space="preserve"><tspan x="18.0" fill="#f0f6fc"> </tspan></text>
-<text y="463.5" font-family="'Courier New',Consolas,monospace" font-size="11.5" xml:space="preserve"><tspan x="18.0" fill="#e3b341">  LinkedIn </tspan><tspan x="94.0" fill="#8b949e"> ... </tspan><tspan x="128.6" fill="#79c0ff">linkedin.com/in/neelashish-b5a50b380</tspan></text>
-<text y="480.5" font-family="'Courier New',Consolas,monospace" font-size="11.5" xml:space="preserve"><tspan x="18.0" fill="#e3b341">  X/Twitter</tspan><tspan x="94.0" fill="#8b949e"> ... </tspan><tspan x="128.6" fill="#79c0ff">@Neelashish_08</tspan></text>
-<text y="497.5" font-family="'Courier New',Consolas,monospace" font-size="11.5" xml:space="preserve"><tspan x="18.0" fill="#e3b341">  Email    </tspan><tspan x="94.0" fill="#8b949e"> ... </tspan><tspan x="128.6" fill="#79c0ff">neelashish0@gmail.com</tspan></text>
-<text y="514.5" font-family="'Courier New',Consolas,monospace" font-size="11.5" xml:space="preserve"><tspan x="18.0" fill="#f0f6fc"> </tspan></text>
-<text y="531.5" font-family="'Courier New',Consolas,monospace" font-size="11.5" xml:space="preserve"><tspan x="18.0" fill="#21262d">──────────────────────────────────────────────────────────</tspan></text>
-<text y="548.5" font-family="'Courier New',Consolas,monospace" font-size="11.5" xml:space="preserve"><tspan x="18.0" fill="#f0f6fc"> </tspan></text>
-<text y="565.5" font-family="'Courier New',Consolas,monospace" font-size="11.5" xml:space="preserve"><tspan x="18.0" fill="#e3b341">  Repos:</tspan><tspan x="73.3" fill="#39d353">  7</tspan><tspan x="94.0" fill="#e3b341">    Stars:</tspan><tspan x="163.1" fill="#39d353">  0</tspan></text>
-<text y="582.5" font-family="'Courier New',Consolas,monospace" font-size="11.5" xml:space="preserve"><tspan x="18.0" fill="#e3b341">  Followers:</tspan><tspan x="100.9" fill="#39d353">  1</tspan></text>
-<text y="599.5" font-family="'Courier New',Consolas,monospace" font-size="11.5" xml:space="preserve"><tspan x="18.0" fill="#f0f6fc"> </tspan></text>
-<text y="616.5" font-family="'Courier New',Consolas,monospace" font-size="11.5" xml:space="preserve"><tspan x="18.0" fill="#21262d">──────────────────────────────────────────────────────────</tspan></text>
-<text y="633.5" font-family="'Courier New',Consolas,monospace" font-size="11.5" xml:space="preserve"><tspan x="18.0" fill="#f0f6fc"> </tspan></text>
-<text y="650.5" font-family="'Courier New',Consolas,monospace" font-size="11.5" xml:space="preserve"><tspan x="18.0" fill="#8b949e">  &quot;Those who break the rules are scum,</tspan></text>
-<text y="667.5" font-family="'Courier New',Consolas,monospace" font-size="11.5" xml:space="preserve"><tspan x="18.0" fill="#8b949e">   but those who abandon their friends</tspan></text>
-<text y="684.5" font-family="'Courier New',Consolas,monospace" font-size="11.5" xml:space="preserve"><tspan x="18.0" fill="#8b949e">   are worse than scum.&quot;</tspan></text>
-<text y="701.5" font-family="'Courier New',Consolas,monospace" font-size="11.5" xml:space="preserve"><tspan x="18.0" fill="#f97316">                       — Hatake Kakashi</tspan></text>
-<text y="718.5" font-family="'Courier New',Consolas,monospace" font-size="11.5" xml:space="preserve"><tspan x="18.0" fill="#f0f6fc"> </tspan></text>
+<text y="463.5" font-family="'Courier New',Consolas,monospace" font-size="11.5" xml:space="preserve"><tspan x="18.0" fill="#21262d">──────────────────────────────────────────────────────────</tspan></text>
+<text y="480.5" font-family="'Courier New',Consolas,monospace" font-size="11.5" xml:space="preserve"><tspan x="18.0" fill="#f0f6fc"> </tspan></text>
+<text y="497.5" font-family="'Courier New',Consolas,monospace" font-size="11.5" xml:space="preserve"><tspan x="18.0" fill="#e3b341">  Repos:</tspan><tspan x="73.3" fill="#39d353">  7</tspan><tspan x="94.0" fill="#e3b341">    Stars:</tspan><tspan x="163.1" fill="#39d353">  0</tspan></text>
+<text y="514.5" font-family="'Courier New',Consolas,monospace" font-size="11.5" xml:space="preserve"><tspan x="18.0" fill="#e3b341">  Followers:</tspan><tspan x="100.9" fill="#39d353">  1</tspan></text>
+<text y="531.5" font-family="'Courier New',Consolas,monospace" font-size="11.5" xml:space="preserve"><tspan x="18.0" fill="#f0f6fc"> </tspan></text>
+<text y="548.5" font-family="'Courier New',Consolas,monospace" font-size="11.5" xml:space="preserve"><tspan x="18.0" fill="#21262d">──────────────────────────────────────────────────────────</tspan></text>
+<text y="565.5" font-family="'Courier New',Consolas,monospace" font-size="11.5" xml:space="preserve"><tspan x="18.0" fill="#f0f6fc"> </tspan></text>
+<text y="582.5" font-family="'Courier New',Consolas,monospace" font-size="11.5" xml:space="preserve"><tspan x="18.0" fill="#8b949e">  &quot;Those who break the rules are scum,</tspan></text>
+<text y="599.5" font-family="'Courier New',Consolas,monospace" font-size="11.5" xml:space="preserve"><tspan x="18.0" fill="#8b949e">   but those who abandon their friends</tspan></text>
+<text y="616.5" font-family="'Courier New',Consolas,monospace" font-size="11.5" xml:space="preserve"><tspan x="18.0" fill="#8b949e">   are worse than scum.&quot;</tspan></text>
+<text y="633.5" font-family="'Courier New',Consolas,monospace" font-size="11.5" xml:space="preserve"><tspan x="18.0" fill="#f97316">                       — Hatake Kakashi</tspan></text>
+<text y="650.5" font-family="'Courier New',Consolas,monospace" font-size="11.5" xml:space="preserve"><tspan x="18.0" fill="#f0f6fc"> </tspan></text>
 </svg>
