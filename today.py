@@ -42,7 +42,7 @@ def get_github_stats():
     try:
         r    = requests.get(f"https://api.github.com/users/{USER_NAME}", headers=headers, timeout=10)
         user = r.json()
-        repos     = user.get("public_repos", 0)
+        repos     = user.get("public_repos", 0)  # fallback
         followers = user.get("followers", 0)
         created   = datetime.strptime(
             user.get("created_at", "2024-01-01T00:00:00Z"), "%Y-%m-%dT%H:%M:%SZ"
@@ -53,15 +53,19 @@ def get_github_stats():
         days   = delta.days % 30
         uptime = f"{years} yr, {months} mo, {days} d"
         stars  = 0
+        # Use /user/repos (authenticated) to get ALL repos incl. private ones
         rr = requests.get(
-            f"https://api.github.com/users/{USER_NAME}/repos?per_page=100&type=owner",
+            "https://api.github.com/user/repos?per_page=100&type=all",
             headers=headers, timeout=10
         )
         if rr.status_code == 200:
-            for repo in rr.json():
+            all_repos = rr.json()
+            repos = len(all_repos)           # real total (public + private)
+            for repo in all_repos:
                 stars += repo.get("stargazers_count", 0)
         stats = {"repos": str(repos), "followers": str(followers),
                  "stars": str(stars), "uptime": uptime}
+
     except Exception as e:
         print(f"[warn] GitHub API: {e}")
     return stats
